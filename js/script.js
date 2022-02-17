@@ -55,7 +55,7 @@ function createPokemonCard(pokemon) {
             <span class="number">#${pokemon.id
 							.toString()
 							.padStart(3, '0')}</span>
-            <h3 class="name">${name}<a href = "https://www.pokemon.com/us/pokedex/${small}"> </a></h3>
+            <h3 class="name"><a href = "https://www.pokemon.com/us/pokedex/${small}"> ${name} </a></h3>
             <small class="type">Type: <span>${type}</span></small>
         </div>
     `;
