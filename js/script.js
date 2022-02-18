@@ -42,7 +42,6 @@ function createPokemonCard(pokemon) {
 	const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 	const color = colors[type];
         const small = pokemon.name;
-	const big = types[0].type.name[0].toUpperCase() + types[0].type.name.slice(1);
 	
 	pokemonEl.style.backgroundColor = color;
 
@@ -57,7 +56,7 @@ function createPokemonCard(pokemon) {
 							.toString()
 							.padStart(3, '0')}</span>
             <h3 class="name">${name}</h3>
-            <small class="type">Type: <span>${big}</span></small>
+            <small class="type">Type: <span>${type}</span></small>
         </div>
     `;
 
