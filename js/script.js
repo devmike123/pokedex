@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke_container');
-const pokemons_number = 898;
+const pokemons_number = 905;
 const colors = {
 	fire: '#FDDFDF',
 	grass: '#DEFDE0',
@@ -47,7 +47,7 @@ function createPokemonCard(pokemon) {
 
 	const pokeInnerHTML = `
         <div class="img-container">
-            <a href = "https://www.pokemon.com/us/pokedex/${small}"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${
+            <a href = "https://www.pokemon.com/us/pokedex/${small}"><img src="https://raw.githubusercontent.com/DevMike123/sprites/master/sprites/pokemon/other/official-artwork/shiny/${
 							pokemon.id
 						}.png" alt="${name}" /> </a>
         </div>
